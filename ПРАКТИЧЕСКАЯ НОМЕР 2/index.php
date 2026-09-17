@@ -13,6 +13,7 @@
     $d = 5;
     $rez = ($a/$c)*($b/$d)-($a*$b-$c)/($c*$d);
     ?>
+    <?php echo "Формула 1"; ?><br>
     <?php echo "a = $a"; ?><br>
     <?php echo "b = $b"; ?><br>
     <?php echo "c = $c"; ?><br>
@@ -22,18 +23,21 @@
     $x = 10;
     $y = 5;
     ?>
+    <?php echo "Формула 2"; ?><br>
     <?php echo "x = $x"; ?><br>
     <?php echo "y = $y"; ?><br>
     <?php
     $rez = ($x + $y) / ($y+1) - ($x*$y - 12) / (34 + $x);
     echo "Результат: $rez";
     ?><br>
+    <?php echo "Формула 3"; ?><br>
     <?php echo "x = $x"; ?><br>
     <?php echo "y = $y"; ?><br>
     <?php 
     $rez = (($x+1)/($x-1))**$x + (18 * $x * $y**2);
     echo "Результат: $rez";
     ?><br>
+    <?php echo "Формула 4"; ?><br>
     <?php echo "x = $x"; ?><br>
     <?php echo "y = $y"; ?><br>
     <?php 
