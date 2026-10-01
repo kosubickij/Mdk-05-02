@@ -34,13 +34,15 @@
     <br>
     <?php
     echo "задание 3 <br>";
-    $ln = 100;
-    echo "ln = 100 <br>";
-    $multiplicatipnresult = 0;
-    for ($j = 0; $j <= $ln; $j +=2) {
-        $multiplicatipnresult += $j;
+    $ln = 10;
+    echo "ln = 10 <br>";
+    $multiplicatipnresult = 1;
+    for ($j = 1; $j <= $ln; $j++) {
+        if ($j % 2 == 0) {
+            $multiplicatipnresult *= $j;
+        }
     }
-    echo "$j";
+    echo "$multiplicatipnresult";
     ?>
     <br>
     <?php
