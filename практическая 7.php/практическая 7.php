@@ -14,6 +14,8 @@
         <input type="submit">
     </form>
     <?php 
+    $a1 = 0;
+    $b1 = 0;
     if (isset($_GET['a1'])) {
         $a1 = $_GET['a1'];
     }
@@ -29,6 +31,7 @@
         <input type="submit">  
     </form>
     <?php
+    $n1 = 0;
     if (isset($_GET['n1'])) {
         $n1 = $_GET['n1'];
     }
@@ -41,6 +44,7 @@
         <input type="submit">
     </form>
     <?php
+    $sum1 = 0;
     if (isset($_GET['sum1'])) {
         $sum1 = $_GET['sum1'];
     }
@@ -55,6 +59,9 @@
         <input type="submit">
     </form>
     <?php
+    $a2 = 0;
+    $b2 = 0;
+    $c2 = 0;
     if (isset($_GET['a2'])) {
         $a2 = $_GET['a2'];
     }
@@ -73,6 +80,7 @@
         <input type="submit">
     </form>
     <?php
+    $age = 0;
     if (isset($_GET['age'])) {
         $age = $_GET['age'];
     }
@@ -86,6 +94,8 @@
         <input type="submit">
     </form>
     <?php
+    $g1 = 0;
+    $g2 = 0;
     if (isset($_GET['g1'])) {
         $g1 = $_GET['g1'];
     }
