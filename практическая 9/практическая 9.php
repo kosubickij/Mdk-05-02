@@ -107,12 +107,12 @@
     <?php
     $w = ['кот', 'слон', 'дом', 'мышь', 'лес', "восемь"];
     $res = [];
-    foreach ($w as $word) {
-        $l = mb_strlen($word);
+    foreach ($w as $wd) {
+        $l = mb_strlen($wd);
         if (!isset($res[$l])) {
-            $res[$l] = $word;
+            $res[$l] = $wd;
         } else {
-            $res[$l] .= ' ' . $word;
+            $res[$l] .= ' ' . $wd;
         }
     }
     foreach ($res as $key => $num) {
