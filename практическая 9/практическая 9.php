@@ -103,9 +103,21 @@
     echo "$key => $num<br>";
     }
     ?>
-    <h2>задание 6</h2>
+    <h2>задание 7</h2>
     <?php
-
+    $w = ['кот', 'слон', 'дом', 'мышь', 'лес', "восемь"];
+    $res = [];
+    foreach ($w as $word) {
+        $l = mb_strlen($word);
+        if (!isset($res[$l])) {
+            $res[$l] = $word;
+        } else {
+            $res[$l] .= ' ' . $word;
+        }
+    }
+    foreach ($res as $key => $num) {
+        echo "$key => $num,  ";
+    }
     ?>
 </body>
 </html>
